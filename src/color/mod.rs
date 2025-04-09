@@ -1,3 +1,5 @@
+#![doc = include_str!("README.md")]
+
 use anyhow::Result;
 use quote::quote;
 use tailwind::TailwindMap;

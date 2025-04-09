@@ -26,7 +26,7 @@ impl Args {
 
 /// The main entry point for converting a file with the CLI tool.
 ///
-/// If you don't need to open files/use stdin, then see [`generate`].
+/// If you don't need to open files/use stdin, then see [`color::generate`].
 pub fn handle_args(args: Args) -> Result<()> {
     let input = match args.input_file {
         Some(file) => fs::read_to_string(file)?,
