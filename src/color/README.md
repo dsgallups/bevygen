@@ -1,12 +1,6 @@
 # Color Generation Tool
 Generate constant color palettes (for bevy via color schemes)
 
-## Get Started
-install via `cargo install cargo-color-gen`
-
-Then, with a tailwind scheme and output file:
-`cargo color-gen -i examples/example.json -o example_output/coloors_output.rs`
-
 ### Input Schema
 A schema that looks something like this.
 ```json
@@ -81,11 +75,3 @@ pub const REDWOOD_NO_WORK: () = ();
 ```
 
 If you specify an output `-o`, the output will save to that file. Otherwise, it will be printed to stdout.
-
-## Help/Suggestions wanted!
-
-Please let me know what formats should be supported. Additionally, I've got some thoughts:
-
-- it could be nice to make strongly typed palettes with enumerations
-- Other schema types
-- correct parsing of JS Objects (most scheme generators return this, not JSON)
