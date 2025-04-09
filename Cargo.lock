@@ -463,6 +463,8 @@ dependencies = [
  "serde",
  "serde_json",
  "syn",
+ "tracing",
+ "tracing-subscriber",
 ]
 
 [[package]]
