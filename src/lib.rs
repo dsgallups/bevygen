@@ -1,4 +1,4 @@
 pub mod color;
 
-//pub mod dirgen;
-//pub mod wizard;
+pub mod dirgen;
+pub mod wizard;
